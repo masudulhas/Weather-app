@@ -28,8 +28,8 @@ render() {
               name: data.timeSeries[0].parameters[0].name,
               level: data.timeSeries[0].parameters[0].level,
               unit: data.timeSeries[0].parameters[0].unit,
-              lan: data.geometry.coordinates[0][0],
-              lat: data.geometry.coordinates[0][1]
+              lan: parseFloat(data.geometry.coordinates[0][0]).toFixed(2),
+              lat: parseFloat(data.geometry.coordinates[0][1]).toFixed(2)
             })
           }
         );
@@ -42,8 +42,8 @@ render() {
         weather = {this.state.weather}
         name = {this.state.name}
         level = {this.state.level}
-        lan = {parseFloat(this.state.lan).toFixed(2)}
-        lat = {parseFloat(this.state.lat).toFixed(2)}
+        lan = {this.state.lan}
+        lat = {this.state.lat}
     />
    </div>   
     );
