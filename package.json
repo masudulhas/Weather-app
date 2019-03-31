@@ -1,5 +1,5 @@
 {
-  "name": "reactjs-basics",
+  "name": "weather-app",
   "version": "1.0.0",
   "description": "Some basic ReactJS",
   "main": "index.js",
@@ -11,7 +11,7 @@
   "keywords": [
     "reactjs"
   ],
-  "author": "",
+  "author": "Masud",
   "license": "MIT",
   "dependencies": {
     "react": "^15.2.1",
