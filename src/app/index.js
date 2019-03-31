@@ -9,8 +9,7 @@ class App extends Component {
     weather: {}
   };
 
-  
-  render() {
+render() {
 
      return (
       <Autocomplete
