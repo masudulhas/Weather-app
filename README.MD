@@ -2,4 +2,5 @@
 
 This repository accompanies Weather-app.
 
-# Usage
+# Usage:
+run command: npm start
